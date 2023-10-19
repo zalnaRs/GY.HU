@@ -1,11 +1,11 @@
 {
-  "version": "1.0.1",
-  "notes": "Első verzió",
+  "version": "1.0.2",
+  "notes": "Információk",
   "pub_date": "2023-10-19T19:26:57Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZ1hJMWc4Vk8rbGZXYXluRlhjT2RjMWV4aWR4M2F2aENxTFMrblFUcE9PYnFFdCtRampPdmQ3YU9wZWEwekVWdkdKSHZYVGVzV2xDV0hxK3B5ZmZtR2FqQm5ra0FvSEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjk3NzI4NjI1CWZpbGU6R1lIVV8xLjAuMV94NjRfaHUtSFUubXNpLnppcAphRDFlYWxsV0d4Q2dyd05KMzJFbDVGS2F0Ni9lOUUzc2ZncGRqRnBFS092dXp1R0dZdldXU28wdkFXZjhnTmNzMFJYSzMzM0IwaHh4bUs2NEE5Z2FDZz09Cg==",
-      "url": "https://github.com/zalnaRs/GY.HU/releases/download/1.0.1/GYHU_1.0.1_x64_hu-HU.msi.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZ1hJMWc4Vk8rbGZ3TkUvUWJFMHFFSVZPdml3Q3Frbzk1ajI2by94ZFhJTHZRRkNjbXFFM2xUbkhDNDZGa09TaVJFbTFiVUs5MURIejU2TVJHd1I5MlErdWlpekFHNmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjk3NzMzNzIzCWZpbGU6R1lIVV8xLjAuMl94NjRfaHUtSFUubXNpLnppcApSanNRT2o3VldpV0g5b0U5RXdjZ3V4SkptRGQ1WVBVWVN5TUluL3M3MXd1WDc1bnc2SnBlbXhMSUE4Uk9mS2Y3bnJXQ3hzZkxhc0Y2VExLQTBTZ0REdz09Cg==",
+      "url": "https://github.com/zalnaRs/GY.HU/releases/download/1.0.2/GYHU_1.0.2_x64_hu-HU.msi.zip"
     }
   }
 }

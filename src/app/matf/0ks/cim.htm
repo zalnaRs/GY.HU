@@ -40,6 +40,21 @@ body {
 </head>
 
 <body>
+
+  <header style="margin-top: 48px;">
+   <script>
+      window.__TAURI__.app.getVersion().then(v => document.write(`App verzió: ${v}`)).catch((err) => console.error(err))
+      </script>
+
+    <p>Eredeti oldal: <a href="https://altsuli.hu/matf/index.htm" target="target">itt</a> található</p>
+    <p>Ez az alkalmazás egy nem hivatalos "wrapper", ami engedi, hogy a flash player tartalmak müködjenek (<a href="https://ruffle.rs/" target="target">ruffle</a>) és ez internet nélkül is müködik. Fontos, hogy vannak olyan feladatok ami nem müködik!</p>
+    <p>Ha valaki megnézné vagy segitene a forráskód <a href="https://github.com/zalnaRs/GY.HU" target="target">itt</a> található</p>
+    <b><p>Ha valami nem müködik akkor nyomd meg a <img src="/assets/img/refresh.svg" alt="újratöltés"> gombot.</p></b>
+
+    <div><a href="https://dnaplo.cf" target="target">DNaplo</a> <a href="https://quizschool.netlify.app" target="target">QuizSchool</a>  <a href="https://github.com/zalnaRs/GY.HU/releases" target="target">Frissitések keresése</a></div>
+    </header>
+
+
 <table width="600" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#E8E8E8">
   <!--DWLayoutTable-->
   <tr>
@@ -58,21 +73,13 @@ body {
     <td colspan="3" valign="top"><span class="style9"></span></td>
     <td colspan="3"><span class="style9"><span class="style10"><a href="elmelet/keretgorogb.html" target="_self">G&ouml;r&ouml;g bet&#369;k </a></span></span></td>
   </tr>
-  <tr>
-    <td height="22" bgcolor="#E8E8E8"></td>
-    <td colspan="3" valign="top" bgcolor="#E8E8E8"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td colspan="3" bgcolor="#E8E8E8"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
+
   <tr>
     <td height="22" bgcolor="#E8E8E8"></td>
     <td colspan="3" valign="top" bgcolor="#E8E8E8"><!--DWLayoutEmptyCell-->&nbsp;</td>
     <td colspan="3" bgcolor="#E8E8E8"><span class="style9"><span class="style10"><a href="00peldak/romszam/keretromszam.html" target="_self">R&oacute;mai sz&aacute;mok</a></span></span></td>
   </tr>
-  <tr>
-    <td height="22" bgcolor="#E8E8E8"></td>
-    <td colspan="3" valign="top" bgcolor="#E8E8E8"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td colspan="3" bgcolor="#E8E8E8"><span class="style9"></span></td>
-  </tr>
+
   <tr bgcolor="#800080">
     <td height="22"></td>
     <td colspan="3" valign="top"><span class="style9"><span class="style12">HALMAZOK</span></span></td>
@@ -85,12 +92,7 @@ body {
     <td colspan="3" valign="top" bgcolor="#E8E8E8"><!--DWLayoutEmptyCell-->&nbsp;</td>
     <td colspan="3" bgcolor="#E8E8E8"><span class="style9"><span class="style10"><a href="00peldak/0halmaz/film/kerethalmaz.html" target="_self">Halmazm&#369;veletek</a></span></span></td>
   </tr>
-  <tr>
-    <td height="22" bgcolor="#E8E8E8"></td>
-    <td colspan="3" valign="top" bgcolor="#E8E8E8"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td bgcolor="#E8E8E8">&nbsp;</td>
-    <td colspan="2" valign="top" bgcolor="#E8E8E8"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
+
   <tr>
     <td height="22" bgcolor="#800080"></td>
     <td colspan="3" valign="top" bgcolor="#800080"><span class="style9"><span class="style12">SZ&Aacute;MEGYENES</span><a name="szamegy"></td>
@@ -116,23 +118,13 @@ body {
     <td colspan="3" valign="top"><!--DWLayoutEmptyCell-->&nbsp;</td>
     <td colspan="3"><span class="style9"><span class="style10"><a href="00peldak/tizesszamr/szamszomsz/keretszamsz.html" target="_self">Sz&aacute;mszomsz&eacute;dok</a></span></span></td>
   </tr>
-  <tr>
-    <td height="22"></td>
-    <td colspan="3" valign="top"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td>&nbsp;</td>
-    <td colspan="2" valign="top"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
+
   <tr>
     <td height="22"></td>
     <td colspan="3" valign="top"><!--DWLayoutEmptyCell-->&nbsp;</td>
     <td colspan="3"><span class="style9"><span class="style10"><a href="00peldak/szamhalmaz/szamhalmaz.html" target="_self">Sz&aacute;mhalmazok</a></span></span></td>
   </tr>
-  <tr>
-    <td height="22"></td>
-    <td colspan="3" valign="top"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td>&nbsp;</td>
-    <td colspan="2" valign="top"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
+
   <tr bgcolor="#800080">
     <td height="22"></td>
     <td colspan="3" valign="top"><span class="style12">TIZES SZ&Aacute;MRENDSZER</span></td>
@@ -190,14 +182,7 @@ body {
     <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><span class="style10"><a href="00peldak/szamolas/keretszamol2.html" target="_self">Kettesével</a></span></td>
     <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
   </tr>
-  <tr>
-    <td height="19">&nbsp;</td>
-    <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
+
   <tr>
     <td height="19">&nbsp;</td>
     <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
@@ -205,13 +190,7 @@ body {
     <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><span class="style10"><a href="00peldak/szamolas/keretszamol3.html" target="_self">H&aacute;rmas&aacute;val</a></span></td>
     <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
   </tr>
-  <tr>
-    <td height="19">&nbsp;</td>
-    <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
+
   <tr>
     <td height="19">&nbsp;</td>
     <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
@@ -219,13 +198,7 @@ body {
     <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><span class="style10"><a href="00peldak/szamolas/keretszamol4.html" target="_self">N&eacute;gyes&eacute;vel</a></span></td>
     <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
   </tr>
-  <tr>
-    <td height="19">&nbsp;</td>
-    <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
+
   <tr>
     <td height="19">&nbsp;</td>
     <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
@@ -233,13 +206,7 @@ body {
     <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><span class="style10"><a href="00peldak/szamolas/keretszamol5.html" target="_self">&Ouml;t&ouml;s&eacute;vel</a></span></td>
     <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
   </tr>
-  <tr>
-    <td height="19">&nbsp;</td>
-    <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
+
   <tr>
     <td height="19">&nbsp;</td>
     <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
@@ -247,14 +214,7 @@ body {
     <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><span class="style10"><a href="00peldak/szamolas/keretszamol6.html" target="_self">Hatos&aacute;val</a></span></td>
     <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
   </tr>
-  <tr>
-    <td height="19">&nbsp;</td>
-    <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
+
   <tr>
     <td height="19">&nbsp;</td>
     <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
@@ -262,14 +222,7 @@ body {
     <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><span class="style10"><a href="00peldak/szamolas/keretszamol7.html" target="_self">Hetes&eacute;vel</a></span></td>
     <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
   </tr>
-  <tr>
-    <td height="19">&nbsp;</td>
-    <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
+
   <tr>
     <td height="19">&nbsp;</td>
     <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
@@ -277,14 +230,7 @@ body {
     <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><span class="style10"><a href="00peldak/szamolas/keretszamol8.html" target="_self">Nyolcas&aacute;val</a></span></td>
     <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
   </tr>
-  <tr>
-    <td height="19">&nbsp;</td>
-    <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
+
   <tr>
     <td height="19">&nbsp;</td>
     <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
@@ -292,13 +238,7 @@ body {
     <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><span class="style10"><a href="00peldak/szamolas/keretszamol9.html" target="_self">Kilences&eacute;vel</a></span></td>
     <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
   </tr>
-  <tr>
-    <td height="19">&nbsp;</td>
-    <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
+
   <tr>
     <td height="19">&nbsp;</td>
     <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
@@ -306,13 +246,7 @@ body {
     <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><span class="style10"><a href="00peldak/szamolas/keretkisnagy.html" target="_self">Kisebb, nagyobb </a></span></td>
     <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
   </tr>
-  <tr>
-    <td height="19">&nbsp;</td>
-    <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
+
   <tr>
     <td height="19">&nbsp;</td>
     <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
@@ -320,13 +254,7 @@ body {
     <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><span class="style10"><a href="00peldak/0szorzotabl/szorzotablak/keretszorztabl.html" target="_self">Szorz&oacute;t&aacute;bl&aacute;k</a></span></td>
     <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
   </tr>
-  <tr>
-    <td height="19">&nbsp;</td>
-    <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
+
   <tr>
     <td height="19">&nbsp;</td>
     <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
@@ -334,14 +262,7 @@ body {
     <td colspan="2" valign="top" bgcolor="#E8E8E8" class="style9"><span class="style10"><a href="00peldak/0szorzotabl/osztotablak/keretosztotabl.html" target="_self">Oszt&oacute;t&aacute;bl&aacute;k</a></span></td>
     <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
   </tr>
-  <tr>
-    <td height="19">&nbsp;</td>
-    <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" bgcolor="#E8E8E8" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
+
   <tr>
     <td height="19">&nbsp;</td>
     <td colspan="2" valign="top" class="style9"><!--DWLayoutEmptyCell-->&nbsp;</td>
