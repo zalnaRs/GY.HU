@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "GYHU",
-    "version": "1.0.4"
+    "version": "1.0.5"
   },
   "tauri": {
     "allowlist": {
@@ -56,7 +56,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "gyhu",
+        "title": "GY.HU",
         "width": 1200,
         "height": 800
       }
