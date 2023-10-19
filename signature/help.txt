@@ -1,4 +1,2 @@
-$TAURI_PRIVATE_KEY="---"
-$TAURI_KEY_PASSWORD="---"
-
-to win env variables
+$env:TAURI_PRIVATE_KEY="content of the generated key"
+$env:TAURI_KEY_PASSWORD="password"
