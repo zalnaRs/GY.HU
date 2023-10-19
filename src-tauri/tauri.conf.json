@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "GYHU",
-    "version": "0.0.0"
+    "version": "1.0.0"
   },
   "tauri": {
     "allowlist": {
@@ -20,7 +20,10 @@
     },
     "bundle": {
       "active": true,
-      "targets": "all",
+      "targets": [
+        "msi",
+        "updater"
+      ],
       "identifier": "cf.zalnars.gyhu",
       "icon": [
         "icons/32x32.png",
@@ -29,21 +32,21 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "updater": {
-        "active": true,
-        "endpoints": [
-          "https://releases.myapp.com/{{target}}/{{arch}}/{{current_version}}"
-        ],
-        "dialog": true,
-        "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDk1QkU1M0YxNjA4RDVDNjAKUldSZ1hJMWc4Vk8rbFN1RDN6cHVvUnFpVGoxekdCaGhaTkI0d3J1U2dwWENOTUhSdTNtcGZvcWQK",
-        "windows": {
-          "installMode": "passive"
-        }
-      },
       "windows": {
         "wix": {
           "language": "hu-HU"
         }
+      }
+    },
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "https://releases.myapp.com/{{target}}/{{arch}}/{{current_version}}"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDk1QkU1M0YxNjA4RDVDNjAKUldSZ1hJMWc4Vk8rbFN1RDN6cHVvUnFpVGoxekdCaGhaTkI0d3J1U2dwWENOTUhSdTNtcGZvcWQK",
+      "windows": {
+        "installMode": "passive"
       }
     },
     "security": {

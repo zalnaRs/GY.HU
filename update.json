@@ -1,0 +1,11 @@
+{
+  "version": "v1.0.0",
+  "notes": "Első verzió",
+  "pub_date": "2023-10-19T19:25:57Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZ1hJMWc4Vk8rbFdPbE1ER0JUc3llaW8yS2pKT0pCSmZCOGJWc2hWcFVZb0Y1cHhQVXpjeDZlUDB4bGhIM1V1cTg2Mk13WFcyWGJZcDdWcTZpSXA4SjJoT0djOFRQR2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjk3NzI4MDQ2CWZpbGU6R1lIVV8xLjAuMF94NjRfaHUtSFUubXNpLnppcAovbllSQ3YrTWxLL21OYVJyZFE0YUJGOXZWYlZMQk9ic1Y5UkpNUlZTTW1uWEUzVXVmalowM09FYm9JaVRSSWx3QWtVRUZyc2czay9QZDRJWUFTU3NDUT09Cg==",
+      "url": "https://github.com/zalnaRs/GY.HU/releases/download/1.0.0/GYHU_1.0.0_x64_hu-HU.msi"
+    }
+  }
+}
