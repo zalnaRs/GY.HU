@@ -4,8 +4,8 @@
   "pub_date": "2023-10-19T19:26:57Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZ1hJMWc4Vk8rbGZ3TkUvUWJFMHFFSVZPdml3Q3Frbzk1ajI2by94ZFhJTHZRRkNjbXFFM2xUbkhDNDZGa09TaVJFbTFiVUs5MURIejU2TVJHd1I5MlErdWlpekFHNmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjk3NzMzNzIzCWZpbGU6R1lIVV8xLjAuMl94NjRfaHUtSFUubXNpLnppcApSanNRT2o3VldpV0g5b0U5RXdjZ3V4SkptRGQ1WVBVWVN5TUluL3M3MXd1WDc1bnc2SnBlbXhMSUE4Uk9mS2Y3bnJXQ3hzZkxhc0Y2VExLQTBTZ0REdz09Cg==",
-      "url": "https://github.com/zalnaRs/GY.HU/releases/download/1.0.2/GYHU_1.0.2_x64_hu-HU.msi.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZ1hJMWc4Vk8rbFVHaXF5WUpRM01mKzdIamVIRXcwa0I2NFBFZkF3ZEIvdmNPTXNHNWtqYXorRmhCRTBEVDlQa2VOWkNmMU5jcnFpSTNmTTdkTjBBcGZ0UTlyRmtxYkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjk3NzM0Mjk1CWZpbGU6R1lIVV8xLjAuMl94NjQtc2V0dXAubnNpcy56aXAKeXFZZjlFUHB4U1BrdWhOdXYrNmJ6aHVDeHV1SmQxNGNraWRVSzFzemZjNHl1SVkxd3pJT0E3dDJSaERGV3MwamtTYklHYWZIL0pKRWJDZDhkeCtjQ3c9PQo=",
+      "url": "https://github.com/zalnaRs/GY.HU/releases/download/1.0.2/GYHU_1.0.2_x64-setup.nsis.zip"
     }
   }
 }
