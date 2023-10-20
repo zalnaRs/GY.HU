@@ -13,7 +13,7 @@ const baseUrl = '/app/matf/0ks/cim.htm';
 window.onload = () => {
   try {
     const iframe = document.querySelector('#iframe');
-    iframe.src = baseUrl;
+    //iframe.src = baseUrl;
 
     const backButton = document.querySelector('#backBtn');
     const forwardButton = document.querySelector('#forwardBtn');
