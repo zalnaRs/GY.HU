@@ -1,2566 +1,982 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="ProgId" content="Word.Document" />
-    <meta name="Generator" content="Microsoft Word 10" />
-    <meta name="Originator" content="Microsoft Word 10" />
-    <link rel="File-List" href="szoveges_elemei/filelist.xml" />
-    <title>HALMAZOK</title>
-    <!--[if gte mso 9
-      ]><xml>
-        <o:DocumentProperties>
-          <o:Author>PL</o:Author>
-          <o:Template>Normal</o:Template>
-          <o:LastAuthor>Pleszkï¿½n Lï¿½szlï¿½</o:LastAuthor>
-          <o:Revision>64</o:Revision>
-          <o:TotalTime>112</o:TotalTime>
-          <o:Created>2004-07-08T20:09:00Z</o:Created>
-          <o:LastSaved>2005-08-10T16:03:00Z</o:LastSaved>
-          <o:Pages>1</o:Pages>
-          <o:Words>391</o:Words>
-          <o:Characters>2705</o:Characters>
-          <o:Lines>22</o:Lines>
-          <o:Paragraphs>6</o:Paragraphs>
-          <o:CharactersWithSpaces>3090</o:CharactersWithSpaces>
-          <o:Version>10.2625</o:Version>
-        </o:DocumentProperties>
-      </xml><!
-    [endif]-->
-    <!--[if gte mso 9
-      ]><xml>
-        <w:WordDocument>
-          <w:Zoom>90</w:Zoom>
-          <w:SpellingState>Clean</w:SpellingState>
-          <w:GrammarState>Clean</w:GrammarState>
-          <w:HyphenationZone>21</w:HyphenationZone>
-          <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
-          <w:ValidateAgainstSchemas />
-          <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
-          <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
-          <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
-        </w:WordDocument>
-      </xml><!
-    [endif]-->
-    <style>
-      <!--
-       /* Font Definitions */
-       @font-face
-      	{font-family:"Comic Sans MS";
-      	panose-1:3 15 7 2 3 3 2 2 2 4;
-      	mso-font-charset:238;
-      	mso-generic-font-family:script;
-      	mso-font-pitch:variable;
-      	mso-font-signature:647 0 0 0 159 0;}
-       /* Style Definitions */
-       p.MsoNormal, li.MsoNormal, div.MsoNormal
-      	{mso-style-parent:"";
-      	margin:0cm;
-      	margin-bottom:.0001pt;
-      	mso-pagination:widow-orphan;
-      	font-size:12.0pt;
-      	font-family:"Times New Roman";
-      	mso-fareast-font-family:"Times New Roman";}
-      a:link, span.MsoHyperlink
-      	{color:blue;
-      	text-decoration:underline;
-      	text-underline:single;}
-      a:visited, span.MsoHyperlinkFollowed
-      	{color:blue;
-      	text-decoration:underline;
-      	text-underline:single;}
-      pre
-      	{margin:0cm;
-      	margin-bottom:.0001pt;
-      	mso-pagination:widow-orphan;
-      	font-size:10.0pt;
-      	font-family:"Courier New";
-      	mso-fareast-font-family:"Times New Roman";}
-      span.GramE
-      	{mso-style-name:"";
-      	mso-gram-e:yes;}
-      @page Section1
-      	{size:595.3pt 841.9pt;
-      	margin:70.85pt 70.85pt 70.85pt 70.85pt;
-      	mso-header-margin:35.4pt;
-      	mso-footer-margin:35.4pt;
-      	mso-paper-source:0;}
-      div.Section1
-      	{page:Section1;}
-       /* List Definitions */
-       @list l0
-      	{mso-list-id:848368426;
-      	mso-list-type:hybrid;
-      	mso-list-template-ids:-491777872 -1492620928 68026393 68026395 68026383 68026393 68026395 68026383 68026393 68026395;}
-      @list l0:level1
-      	{mso-level-tab-stop:36.85pt;
-      	mso-level-number-position:left;
-      	margin-left:39.7pt;
-      	text-indent:-21.7pt;
-      	mso-ansi-font-size:14.0pt;
-      	mso-bidi-font-size:14.0pt;
-      	mso-ansi-font-weight:bold;
-      	mso-ansi-font-style:normal;}
-      @list l0:level2
-      	{mso-level-tab-stop:72.0pt;
-      	mso-level-number-position:left;
-      	text-indent:-18.0pt;}
-      @list l0:level3
-      	{mso-level-tab-stop:108.0pt;
-      	mso-level-number-position:left;
-      	text-indent:-18.0pt;}
-      @list l0:level4
-      	{mso-level-tab-stop:144.0pt;
-      	mso-level-number-position:left;
-      	text-indent:-18.0pt;}
-      @list l0:level5
-      	{mso-level-tab-stop:180.0pt;
-      	mso-level-number-position:left;
-      	text-indent:-18.0pt;}
-      @list l0:level6
-      	{mso-level-tab-stop:216.0pt;
-      	mso-level-number-position:left;
-      	text-indent:-18.0pt;}
-      @list l0:level7
-      	{mso-level-tab-stop:252.0pt;
-      	mso-level-number-position:left;
-      	text-indent:-18.0pt;}
-      @list l0:level8
-      	{mso-level-tab-stop:288.0pt;
-      	mso-level-number-position:left;
-      	text-indent:-18.0pt;}
-      @list l0:level9
-      	{mso-level-tab-stop:324.0pt;
-      	mso-level-number-position:left;
-      	text-indent:-18.0pt;}
-      ol
-      	{margin-bottom:0cm;}
-      ul
-      	{margin-bottom:0cm;}
-      -->
-    </style>
-    <!--[if gte mso 10]>
-      <style>
-        /* Style Definitions */
-        table.MsoNormalTable {
-          mso-style-name: 'Normï¿½l tï¿½blï¿½zat';
-          mso-tstyle-rowband-size: 0;
-          mso-tstyle-colband-size: 0;
-          mso-style-noshow: yes;
-          mso-style-parent: '';
-          mso-padding-alt: 0cm 5.4pt 0cm 5.4pt;
-          mso-para-margin: 0cm;
-          mso-para-margin-bottom: 0.0001pt;
-          mso-pagination: widow-orphan;
-          font-size: 10pt;
-          font-family: 'Times New Roman';
-        }
-        table.MsoTableGrid {
-          mso-style-name: 'Rï¿½csos tï¿½blï¿½zat';
-          mso-tstyle-rowband-size: 0;
-          mso-tstyle-colband-size: 0;
-          border: solid windowtext 1pt;
-          mso-border-alt: solid windowtext 0.5pt;
-          mso-padding-alt: 0cm 5.4pt 0cm 5.4pt;
-          mso-border-insideh: 0.5pt solid windowtext;
-          mso-border-insidev: 0.5pt solid windowtext;
-          mso-para-margin: 0cm;
-          mso-para-margin-bottom: 0.0001pt;
-          mso-pagination: widow-orphan;
-          font-size: 10pt;
-          font-family: 'Times New Roman';
-        }
-      </style>
-    <![endif]-->
-    <!--[if gte mso 9
-      ]><xml>
-        <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
-        </w:LatentStyles> </xml
-    ><![endif]-->
-    <!--[if gte mso 9
-      ]><xml>
-        <o:shapedefaults v:ext="edit" spidmax="14338">
-          <o:colormru v:ext="edit" colors="#ffe4c9,#eaeaea" />
-          <o:colormenu
-            v:ext="edit"
-            fillcolor="#eaeaea"
-          /> </o:shapedefaults></xml
-    ><![endif]-->
-    <!--[if gte mso 9
-      ]><xml>
-        <o:shapelayout v:ext="edit">
-          <o:idmap v:ext="edit" data="1" /> </o:shapelayout></xml
-    ><![endif]-->
-  </head>
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
 
-  <body
-    bgcolor="#EAEAEA"
-    lang="HU"
-    link="blue"
-    vlink="blue"
-    style="tab-interval: 35.4pt"
-  >
-    <div class="Section1">
-      <p
-        class="MsoNormal"
-        align="center"
-        style="text-align: center; tab-stops: 54pt 117pt"
-      >
-        <o:p>&nbsp;</o:p>
-      </p>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1250">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="szoveges_elemei/filelist.xml">
+<title>HALMAZOK</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>PL</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Pleszkán László</o:LastAuthor>
+  <o:Revision>64</o:Revision>
+  <o:TotalTime>112</o:TotalTime>
+  <o:Created>2004-07-08T20:09:00Z</o:Created>
+  <o:LastSaved>2005-08-10T16:03:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>391</o:Words>
+  <o:Characters>2705</o:Characters>
+  <o:Lines>22</o:Lines>
+  <o:Paragraphs>6</o:Paragraphs>
+  <o:CharactersWithSpaces>3090</o:CharactersWithSpaces>
+  <o:Version>10.2625</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>90</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Comic Sans MS";
+	panose-1:3 15 7 2 3 3 2 2 2 4;
+	mso-font-charset:238;
+	mso-generic-font-family:script;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+pre
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:848368426;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-491777872 -1492620928 68026393 68026395 68026383 68026393 68026395 68026383 68026393 68026395;}
+@list l0:level1
+	{mso-level-tab-stop:36.85pt;
+	mso-level-number-position:left;
+	margin-left:39.7pt;
+	text-indent:-21.7pt;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l0:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Normál táblázat";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+table.MsoTableGrid
+	{mso-style-name:"Rácsos táblázat";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">  </w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="14338">
+  <o:colormru v:ext="edit" colors="#ffe4c9,#eaeaea"/>
+  <o:colormenu v:ext="edit" fillcolor="#eaeaea"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
 
-      <div align="center">
-        <table
-          class="MsoTableGrid"
-          border="0"
-          cellspacing="0"
-          cellpadding="0"
-          width="662"
-          style="
-            width: 496.15pt;
-            border-collapse: collapse;
-            mso-yfti-tbllook: 480;
-            mso-padding-alt: 0cm 5.4pt 0cm 5.4pt;
-          "
-        >
-          <tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                style="
-                  text-align: justify;
-                  text-indent: 18.9pt;
-                  tab-stops: 54pt 117pt;
-                "
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial; color: black"
-                    >Gyakran talï¿½lkozhatunk olyan szï¿½veges feladattal, amelyet
-                    egyenlet, egyenlï¿½tlensï¿½g segï¿½tsï¿½gï¿½vel tudunk megoldani. A
-                    megoldï¿½s sorï¿½n ï¿½rdemes a kï¿½vetkezï¿½ sorrendet betartani.<o:p
-                    ></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 1">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 2">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="
-                width: 460.6pt;
-                background: #00ccff;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                style="
-                  margin-top: 0cm;
-                  margin-right: 0cm;
-                  margin-bottom: 6pt;
-                  margin-left: 18pt;
-                  text-align: justify;
-                  tab-stops: 54pt;
-                "
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-size: 5pt; font-family: Arial"
-                    ><o:p>&nbsp;</o:p></span
-                  ></b
-                >
-              </p>
-              <p
-                class="MsoNormal"
-                style="
-                  margin-top: 0cm;
-                  margin-right: 0cm;
-                  margin-bottom: 6pt;
-                  margin-left: 39.7pt;
-                  text-align: justify;
-                  text-indent: -21.7pt;
-                  mso-list: l0 level1 lfo2;
-                  tab-stops: list 36.85pt left 54pt;
-                "
-              >
-                <![if !supportLists]><b style="mso-bidi-font-weight: normal"
-                  ><span
-                    style="
-                      font-size: 14pt;
-                      font-family: Arial;
-                      mso-fareast-font-family: Arial;
-                    "
-                    ><span style="mso-list: Ignore"
-                      >1.<span style="font: 7pt 'Times New Roman'"
-                        >&nbsp;&nbsp;&nbsp;&nbsp;
-                      </span></span
-                    ></span
-                  ></b
-                ><![endif]><b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    >Olvassuk el figyelmesen a feladat szï¿½vegï¿½t ï¿½s prï¿½bï¿½ljuk
-                    megï¿½rteni az ott leï¿½rtakat!<o:p></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                style="
-                  margin-top: 0cm;
-                  margin-right: 0cm;
-                  margin-bottom: 6pt;
-                  margin-left: 39.7pt;
-                  text-align: justify;
-                  text-indent: -21.7pt;
-                  mso-list: l0 level1 lfo2;
-                  tab-stops: list 36.85pt left 54pt;
-                "
-              >
-                <![if !supportLists]><b style="mso-bidi-font-weight: normal"
-                  ><span
-                    style="
-                      font-size: 14pt;
-                      font-family: Arial;
-                      mso-fareast-font-family: Arial;
-                    "
-                    ><span style="mso-list: Ignore"
-                      >2.<span style="font: 7pt 'Times New Roman'"
-                        >&nbsp;&nbsp;&nbsp;&nbsp;
-                      </span></span
-                    ></span
-                  ></b
-                ><![endif]><b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    >Dï¿½ntsï¿½k el, hogy mi legyen az ismeretlen! A legtï¿½bb esetben
-                    azt a mennyisï¿½get cï¿½lszerï¿½ ismeretlennek vï¿½lasztani, amire a
-                    kï¿½rdï¿½s vonatkozik, de elï¿½fordulhat, hogy mï¿½s mennyisï¿½get
-                    vï¿½lasztva ismeretlennek, a feladat megoldï¿½sa egyszerï¿½bbï¿½
-                    vï¿½lik.<o:p></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                style="
-                  margin-top: 0cm;
-                  margin-right: 0cm;
-                  margin-bottom: 6pt;
-                  margin-left: 39.7pt;
-                  text-align: justify;
-                  text-indent: -21.7pt;
-                  mso-list: l0 level1 lfo2;
-                  tab-stops: list 36.85pt left 54pt;
-                "
-              >
-                <![if !supportLists]><b style="mso-bidi-font-weight: normal"
-                  ><span
-                    style="
-                      font-size: 14pt;
-                      font-family: Arial;
-                      mso-fareast-font-family: Arial;
-                    "
-                    ><span style="mso-list: Ignore"
-                      >3.<span style="font: 7pt 'Times New Roman'"
-                        >&nbsp;&nbsp;&nbsp;&nbsp;
-                      </span></span
-                    ></span
-                  ></b
-                ><![endif]><b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    >Keressï¿½nk ï¿½sszefï¿½ggï¿½st az adatok kï¿½zï¿½tt! Az ï¿½sszefï¿½ggï¿½seket
-                    cï¿½lszerï¿½ tï¿½blï¿½zatba foglalni. Geometriai tï¿½pusï¿½ feladatnï¿½l
-                    mindig kï¿½szï¿½tsï¿½nk ï¿½brï¿½t!<o:p></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                style="
-                  margin-top: 0cm;
-                  margin-right: 0cm;
-                  margin-bottom: 6pt;
-                  margin-left: 39.7pt;
-                  text-align: justify;
-                  text-indent: -21.7pt;
-                  mso-list: l0 level1 lfo2;
-                  tab-stops: list 36.85pt left 54pt;
-                "
-              >
-                <![if !supportLists]><b style="mso-bidi-font-weight: normal"
-                  ><span
-                    style="
-                      font-size: 14pt;
-                      font-family: Arial;
-                      mso-fareast-font-family: Arial;
-                    "
-                    ><span style="mso-list: Ignore"
-                      >4.<span style="font: 7pt 'Times New Roman'"
-                        >&nbsp;&nbsp;&nbsp;&nbsp;
-                      </span></span
-                    ></span
-                  ></b
-                ><![endif]><b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    >A tï¿½blï¿½zat, illetve a feladat szï¿½vege alapjï¿½n ï¿½rjuk fel az
-                    egyenletet, majd oldjuk meg!<o:p></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                style="
-                  margin-top: 0cm;
-                  margin-right: 0cm;
-                  margin-bottom: 6pt;
-                  margin-left: 39.7pt;
-                  text-align: justify;
-                  text-indent: -21.7pt;
-                  mso-list: l0 level1 lfo2;
-                  tab-stops: list 36.85pt left 54pt;
-                "
-              >
-                <![if !supportLists]><b style="mso-bidi-font-weight: normal"
-                  ><span
-                    style="
-                      font-size: 14pt;
-                      font-family: Arial;
-                      mso-fareast-font-family: Arial;
-                    "
-                    ><span style="mso-list: Ignore"
-                      >5.<span style="font: 7pt 'Times New Roman'"
-                        >&nbsp;&nbsp;&nbsp;&nbsp;
-                      </span></span
-                    ></span
-                  ></b
-                ><![endif]><b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    >Vizsgï¿½ljuk meg, hogy a kapott eredmï¿½ny megfelel-e a
-                    feladatban leï¿½rtaknak!
-                    <i style="mso-bidi-font-style: normal"
-                      >(Pl.: A tï¿½meg negatï¿½v szï¿½m, vagy szemï¿½lyek szï¿½ma tï¿½rt.
-                      Ilyen esetben a szï¿½veg ismï¿½telt elolvasï¿½sa utï¿½n el kell
-                      dï¿½ntenï¿½nk, hogy a feladatnak nincs megoldï¿½sa, vagy esetleg
-                      kerekï¿½tï¿½ssel megkaphatjuk a megoldï¿½st.)<o:p
-                      ></o:p></i></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                style="
-                  margin-top: 0cm;
-                  margin-right: 0cm;
-                  margin-bottom: 6pt;
-                  margin-left: 39.7pt;
-                  text-align: justify;
-                  text-indent: -21.7pt;
-                  mso-list: l0 level1 lfo2;
-                  tab-stops: list 36.85pt left 54pt;
-                "
-              >
-                <![if !supportLists]><b style="mso-bidi-font-weight: normal"
-                  ><span
-                    style="
-                      font-size: 14pt;
-                      font-family: Arial;
-                      mso-fareast-font-family: Arial;
-                    "
-                    ><span style="mso-list: Ignore"
-                      >6.<span style="font: 7pt 'Times New Roman'"
-                        >&nbsp;&nbsp;&nbsp;&nbsp;
-                      </span></span
-                    ></span
-                  ></b
-                ><![endif]><b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    >A megoldï¿½st ellenï¿½rizni kell. ï¿½gyeljï¿½nk arra, hogy ne az
-                    ï¿½ltalunk felï¿½rt egyenletbe helyettesï¿½tsï¿½nk be, hanem a
-                    szï¿½veg alapjï¿½n ellenï¿½rizzï¿½nk!<o:p></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                style="
-                  margin-top: 0cm;
-                  margin-right: 0cm;
-                  margin-bottom: 6pt;
-                  margin-left: 39.7pt;
-                  text-align: justify;
-                  text-indent: -21.7pt;
-                  mso-list: l0 level1 lfo2;
-                  tab-stops: list 36.85pt left 54pt;
-                "
-              >
-                <![if !supportLists]><b style="mso-bidi-font-weight: normal"
-                  ><span
-                    style="
-                      font-size: 14pt;
-                      font-family: Arial;
-                      mso-fareast-font-family: Arial;
-                    "
-                    ><span style="mso-list: Ignore"
-                      >7.<span style="font: 7pt 'Times New Roman'"
-                        >&nbsp;&nbsp;&nbsp;&nbsp;
-                      </span></span
-                    ></span
-                  ></b
-                ><![endif]><b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    >A feladatban feltett kï¿½rdï¿½sre adjunk szï¿½veges vï¿½laszt!<o:p
-                    ></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-size: 5pt; font-family: Arial"
-                    ><o:p>&nbsp;</o:p></span
-                  ></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 3">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 4">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span
-                    style="font-size: 13pt; font-family: Arial; color: purple"
-                    >Pï¿½lda</span
-                  ></b
-                ><b style="mso-bidi-font-weight: normal"
-                  ><span style="font-size: 13pt; font-family: Arial"
-                    ><o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 5">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 6">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                style="text-align: justify; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial; color: blue"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ </span>Az elsï¿½
-                    istï¿½llï¿½ban 20-szal tï¿½bb lï¿½ van, mint a mï¿½sodikban. Ha az
-                    elsï¿½be mï¿½g 8, a mï¿½sodikba mï¿½g 2 lovat visznek, akkor az elsï¿½
-                    istï¿½llï¿½ban hï¿½romszor annyi lï¿½ lesz, mint a mï¿½sodikban.<o:p
-                    ></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                style="text-align: justify; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial; color: blue"
-                    >Hï¿½ny lï¿½ van most az egyes istï¿½llï¿½kban?<o:p></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial; color: blue"
-                    ><o:p>&nbsp;</o:p></span
-                  ></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 7">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span
-                    style="font-size: 13pt; font-family: Arial; color: navy"
-                    >MEGOLDï¿½S<o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 8">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 9">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                style="
-                  margin-left: 0.9pt;
-                  text-align: justify;
-                  text-indent: 18pt;
-                  tab-stops: 54pt 117pt;
-                "
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    >Miutï¿½n figyelmesen elolvastuk a szï¿½veget, eldï¿½ntï¿½ttï¿½k, hogy
-                    ezt a feladatot egyenlettel prï¿½bï¿½ljuk megoldani.<o:p
-                    ></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                style="
-                  margin-left: 0.9pt;
-                  text-align: justify;
-                  text-indent: 18pt;
-                  tab-stops: 54pt 117pt;
-                "
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    >Jelï¿½ljï¿½k x-szel, az eredetileg a mï¿½sodik istï¿½llï¿½ban lï¿½vï¿½
-                    lovak szï¿½mï¿½t!<o:p></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 10">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                style="margin-left: 18pt; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    >Foglaljuk tï¿½blï¿½zatba az ï¿½sszefï¿½ggï¿½seket!<o:p></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 11">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 12; height: 1.85pt">
-            <td
-              width="50"
-              valign="top"
-              style="
-                width: 37.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.85pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="252"
-              colspan="4"
-              valign="top"
-              style="width: 189pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.85pt"
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span>I.
-                    istï¿½llï¿½<o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="312"
-              colspan="4"
-              valign="top"
-              style="
-                width: 233.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.85pt;
-              "
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span>II.
-                    istï¿½llï¿½<o:p></o:p></span
-                ></b>
-              </p>
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 13; height: 1.65pt">
-            <td
-              width="50"
-              valign="top"
-              style="
-                width: 37.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="right"
-                style="text-align: right; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial">1.<o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="252"
-              colspan="4"
-              valign="top"
-              style="width: 189pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.65pt"
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span>x
-                    + 20<o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="312"
-              colspan="4"
-              valign="top"
-              style="
-                width: 233.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½</span>x<o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 14; height: 1.65pt">
-            <td
-              width="50"
-              valign="top"
-              style="
-                width: 37.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="right"
-                style="text-align: right; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="252"
-              colspan="4"
-              valign="top"
-              style="width: 189pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.65pt"
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="312"
-              colspan="4"
-              valign="top"
-              style="
-                width: 233.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 15; height: 1.65pt">
-            <td
-              width="50"
-              valign="top"
-              style="
-                width: 37.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="right"
-                style="text-align: right; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial">2.<o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="204"
-              colspan="2"
-              valign="top"
-              style="width: 153pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.65pt"
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span>(x +
-                    20) + 8<o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="96"
-              colspan="4"
-              valign="top"
-              style="width: 72pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.65pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial">&gt;<o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="264"
-              colspan="2"
-              valign="top"
-              style="
-                width: 197.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span>x + 2<o:p
-                    ></o:p></span
-                ></b>
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 16; height: 1.65pt">
-            <td
-              width="50"
-              valign="top"
-              style="
-                width: 37.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="564"
-              colspan="8"
-              valign="top"
-              style="
-                width: 422.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                style="margin-left: 158.35pt; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial; color: #993366"
-                    >hï¿½romszorosa<o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 17; height: 1.65pt">
-            <td
-              width="50"
-              valign="top"
-              style="
-                width: 37.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="252"
-              colspan="4"
-              valign="top"
-              style="width: 189pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.65pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="312"
-              colspan="4"
-              valign="top"
-              style="
-                width: 233.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 18">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 19">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                style="text-align: justify; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ </span>Vegyï¿½k ï¿½szre,
-                    hogy ha a mï¿½sodik istï¿½llï¿½ban lï¿½vï¿½ lovak szï¿½mï¿½t
-                    meghï¿½romszoroznï¿½nk, akkor a kï¿½t istï¿½llï¿½ban ugyanannyi lï¿½
-                    lenne!<o:p></o:p></span
-                ></b>
-              </p>
-              <p class="MsoNormal">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    >ï¿½rjuk fel az egyenletet, ï¿½s oldjuk meg!<o:p></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 20">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 21; height: 1.3pt">
-            <td
-              width="182"
-              colspan="2"
-              valign="top"
-              style="
-                width: 136.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.3pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-family: Arial; color: #993300"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-            <td
-              width="252"
-              colspan="6"
-              valign="top"
-              style="width: 189pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.3pt"
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial; color: #993300"
-                    ><span style="mso-spacerun: yes">ï¿½ </span>(x + 20) + 8 = (x
-                    + 2) * 3<o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="180"
-              valign="top"
-              style="
-                width: 134.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.3pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial; color: #993300"
-                    ><o:p>&nbsp;</o:p></span
-                  ></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 22; height: 1.1pt">
-            <td
-              width="182"
-              colspan="2"
-              valign="top"
-              style="
-                width: 136.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-family: Arial"><o:p>&nbsp;</o:p></span>
-              </p>
-            </td>
-            <td
-              width="252"
-              colspan="6"
-              valign="top"
-              style="width: 189pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.1pt"
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <span style="font-family: Arial"><o:p>&nbsp;</o:p></span>
-              </p>
-            </td>
-            <td
-              width="180"
-              valign="top"
-              style="
-                width: 134.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-family: Arial"><o:p>&nbsp;</o:p></span>
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 23; height: 1.1pt">
-            <td
-              width="182"
-              colspan="2"
-              valign="top"
-              style="
-                width: 136.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="252"
-              colspan="6"
-              valign="top"
-              style="width: 189pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.1pt"
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ </span>x + 20 + 8 = 3x
-                    + 6 <o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="180"
-              valign="top"
-              style="
-                width: 134.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 24; height: 1.1pt">
-            <td
-              width="182"
-              colspan="2"
-              valign="top"
-              style="
-                width: 136.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="252"
-              colspan="6"
-              valign="top"
-              style="width: 189pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.1pt"
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="180"
-              valign="top"
-              style="
-                width: 134.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 25; height: 1.1pt">
-            <td
-              width="182"
-              colspan="2"
-              valign="top"
-              style="
-                width: 136.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="252"
-              colspan="6"
-              valign="top"
-              style="width: 189pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.1pt"
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial; color: black"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span>x + 28 =
-                    3x + 6</span
-                  ></b
-                ><b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="180"
-              valign="top"
-              style="
-                width: 134.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial; color: black"
-                    >// - x</span
-                  ></b
-                ><b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 26; height: 1.1pt">
-            <td
-              width="182"
-              colspan="2"
-              valign="top"
-              style="
-                width: 136.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="252"
-              colspan="6"
-              valign="top"
-              style="width: 189pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.1pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="180"
-              valign="top"
-              style="
-                width: 134.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 27; height: 1.1pt">
-            <td
-              width="182"
-              colspan="2"
-              valign="top"
-              style="
-                width: 136.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="252"
-              colspan="6"
-              valign="top"
-              style="width: 189pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.1pt"
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial; color: black"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span
-                    ><span style="mso-spacerun: yes">ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</span>28 = 2x +
-                    6</span
-                  ></b
-                ><b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="180"
-              valign="top"
-              style="
-                width: 134.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial; color: black"
-                    >// - 6</span
-                  ></b
-                ><b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 28; height: 1.1pt">
-            <td
-              width="182"
-              colspan="2"
-              valign="top"
-              style="
-                width: 136.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="252"
-              colspan="6"
-              valign="top"
-              style="width: 189pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.1pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="180"
-              valign="top"
-              style="
-                width: 134.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 29; height: 1.1pt">
-            <td
-              width="182"
-              colspan="2"
-              valign="top"
-              style="
-                width: 136.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="252"
-              colspan="6"
-              valign="top"
-              style="width: 189pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.1pt"
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial; color: black"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</span>22 = 2x</span
-                  ></b
-                ><b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="180"
-              valign="top"
-              style="
-                width: 134.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial; color: black"
-                    >/<span class="GramE">/ :</span> 2</span
-                  ></b
-                ><b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 30; height: 1.1pt">
-            <td
-              width="182"
-              colspan="2"
-              valign="top"
-              style="
-                width: 136.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="252"
-              colspan="6"
-              valign="top"
-              style="width: 189pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.1pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="180"
-              valign="top"
-              style="
-                width: 134.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 31; height: 1.1pt">
-            <td
-              width="182"
-              colspan="2"
-              valign="top"
-              style="
-                width: 136.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="252"
-              colspan="6"
-              valign="top"
-              style="width: 189pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.1pt"
-            >
-              <p class="MsoNormal" style="line-height: 150%">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial; color: black"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span
-                    ><span style="mso-spacerun: yes">ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½</span>11 = x<o:p
-                    ></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="180"
-              valign="top"
-              style="
-                width: 134.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 32; height: 1.1pt">
-            <td
-              width="182"
-              colspan="2"
-              valign="top"
-              style="
-                width: 136.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-            <td
-              width="252"
-              colspan="6"
-              valign="top"
-              style="width: 189pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.1pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-            <td
-              width="180"
-              valign="top"
-              style="
-                width: 134.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.1pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 33">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                style="text-align: justify; text-indent: 18.9pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial; color: black"
-                    >Ez az eredmï¿½ny nem mond ellent a szï¿½vegnek, ï¿½ a (- 8), vagy
-                    a 3<span class="GramE">,74</span> pï¿½ldï¿½ul felkelthetnï¿½ a
-                    gyanï¿½nkat ï¿½ de nï¿½zzï¿½k meg, hogy jï¿½-e? A szï¿½vegbe
-                    behelyettesï¿½tve a kapott eredmï¿½nyt, kï¿½szï¿½tsï¿½k el ï¿½jra a
-                    tï¿½blï¿½zatunkat!<o:p></o:p></span
-                ></b>
-              </p>
-              <p class="MsoNormal" align="center" style="text-align: center">
-                <span style="font-size: 13pt; font-family: Arial; color: black"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-              <p class="MsoNormal" align="center" style="text-align: center">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span
-                    style="font-size: 13pt; font-family: Arial; color: navy"
-                    >Ellenï¿½rzï¿½s<o:p></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 34">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 35; height: 1.85pt">
-            <td
-              width="50"
-              valign="top"
-              style="
-                width: 37.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.85pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="264"
-              colspan="5"
-              valign="top"
-              style="width: 198pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.85pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span
-                    ><span style="mso-spacerun: yes">ï¿½</span>I. istï¿½llï¿½<o:p
-                    ></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="300"
-              colspan="3"
-              valign="top"
-              style="
-                width: 224.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.85pt;
-              "
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span>II.
-                    istï¿½llï¿½<o:p></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 36; height: 1.65pt">
-            <td
-              width="50"
-              valign="top"
-              style="
-                width: 37.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial">1.<o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="264"
-              colspan="5"
-              valign="top"
-              style="width: 198pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.65pt"
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½</span>11 + 20<o:p
-                    ></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="300"
-              colspan="3"
-              valign="top"
-              style="
-                width: 224.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span
-                    >11<o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 37; height: 1.65pt">
-            <td
-              width="50"
-              valign="top"
-              style="
-                width: 37.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="264"
-              colspan="5"
-              valign="top"
-              style="width: 198pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.65pt"
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="300"
-              colspan="3"
-              valign="top"
-              style="
-                width: 224.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 38; height: 1.65pt">
-            <td
-              width="50"
-              valign="top"
-              style="
-                width: 37.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial">2.<o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="264"
-              colspan="5"
-              valign="top"
-              style="width: 198pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.65pt"
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½</span>(11 + 20) + 8<o:p
-                    ></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="300"
-              colspan="3"
-              valign="top"
-              style="
-                width: 224.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p class="MsoNormal">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½</span>11 + 2<o:p
-                    ></o:p></span
-                ></b>
-              </p>
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 39; height: 1.65pt">
-            <td
-              width="50"
-              valign="top"
-              style="
-                width: 37.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="228"
-              colspan="3"
-              valign="top"
-              style="width: 171pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.65pt"
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½</span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½</span>39<o:p
-                    ></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="72"
-              colspan="3"
-              valign="top"
-              style="width: 54pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.65pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial">&gt;<o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-            <td
-              width="264"
-              colspan="2"
-              valign="top"
-              style="
-                width: 197.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p class="MsoNormal" style="tab-stops: 54pt 117pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½</span>13<o:p
-                    ></o:p></span
-                ></b>
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 40; height: 1.65pt">
-            <td
-              width="50"
-              valign="top"
-              style="
-                width: 37.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="564"
-              colspan="8"
-              valign="top"
-              style="
-                width: 422.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                style="margin-left: 167.35pt; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    >hï¿½romszorosa<o:p></o:p></span
-                ></b>
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 41; height: 1.65pt">
-            <td
-              width="50"
-              valign="top"
-              style="
-                width: 37.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="264"
-              colspan="5"
-              valign="top"
-              style="width: 198pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.65pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="300"
-              colspan="3"
-              valign="top"
-              style="
-                width: 224.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 42; height: 1.65pt">
-            <td
-              width="50"
-              valign="top"
-              style="
-                width: 37.65pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="264"
-              colspan="5"
-              valign="top"
-              style="width: 198pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.65pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-            <td
-              width="300"
-              colspan="3"
-              valign="top"
-              style="
-                width: 224.95pt;
-                padding: 0cm 5.4pt 0cm 5.4pt;
-                height: 1.65pt;
-              "
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 43">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 44">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                style="text-align: justify; text-indent: 14.3pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    >A szï¿½vegben, az eredetileg a mï¿½sodik istï¿½llï¿½ban lï¿½vï¿½ lovak
-                    szï¿½ma helyï¿½re 11-et helyettesï¿½tve, a feladat minden
-                    feltï¿½tele teljesï¿½l. Jï¿½het a szï¿½veges vï¿½lasz.<o:p
-                    ></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 45">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 46">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p class="MsoNormal" style="text-indent: 18.9pt">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial; color: #993300"
-                    >Jelenleg az elsï¿½ istï¿½llï¿½ban 31, a mï¿½sodikban 11 lï¿½ van.<o:p
-                    ></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 47">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <span style="font-size: 13pt; font-family: Arial"
-                  ><o:p>&nbsp;</o:p></span
-                >
-              </p>
-            </td>
-          </tr>
-          <tr style="mso-yfti-irow: 48; mso-yfti-lastrow: yes">
-            <td
-              width="614"
-              colspan="9"
-              valign="top"
-              style="width: 460.6pt; padding: 0cm 5.4pt 0cm 5.4pt"
-            >
-              <p class="MsoNormal" style="text-align: justify">
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"
-                    ><span style="mso-spacerun: yes">ï¿½ï¿½ </span>Ha egy szï¿½veges
-                    feladatot nem egyenlettel, hanem egyenlï¿½tlensï¿½ggel lehet
-                    megoldani, ugyanï¿½gy kell eljï¿½rni.<o:p></o:p></span
-                ></b>
-              </p>
-              <p
-                class="MsoNormal"
-                align="center"
-                style="text-align: center; tab-stops: 54pt 117pt"
-              >
-                <b style="mso-bidi-font-weight: normal"
-                  ><span style="font-family: Arial"><o:p>&nbsp;</o:p></span></b
-                >
-              </p>
-            </td>
-          </tr>
-          <![if !supportMisalignedColumns]>
-          <tr height="0">
-            <td width="54" style="border: none"></td>
-            <td width="142" style="border: none"></td>
-            <td width="78" style="border: none"></td>
-            <td width="26" style="border: none"></td>
-            <td width="26" style="border: none"></td>
-            <td width="13" style="border: none"></td>
-            <td width="39" style="border: none"></td>
-            <td width="90" style="border: none"></td>
-            <td width="194" style="border: none"></td>
-          </tr>
-          <![endif]>
-        </table>
-      </div>
+<body bgcolor="#EAEAEA" lang=HU link=blue vlink=blue style='tab-interval:35.4pt'>
 
-      <p class="MsoNormal" style="tab-stops: 10cm">
-        <b style="mso-bidi-font-weight: normal"
-          ><span
-            style="font-size: 10pt; font-family: 'Comic Sans MS'; color: green"
-            ><o:p>&nbsp;</o:p></span
-          ></b
-        >
-      </p>
-    </div>
-  </body>
+<div class=Section1>
+
+<p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><o:p>&nbsp;</o:p></p>
+
+<div align=center>
+
+<table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0 width=662
+ style='width:496.15pt;border-collapse:collapse;mso-yfti-tbllook:480;
+ mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='text-align:justify;text-indent:18.9pt;tab-stops:
+  54.0pt 117.0pt'><b style='mso-bidi-font-weight:normal'><span
+  style='font-family:Arial;color:black'>Gyakran találkozhatunk olyan szöveges
+  feladattal, amelyet egyenlet, egyenlõtlenség segítségével tudunk megoldani. A
+  megoldás során érdemes a következõ sorrendet betartani.<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;background:#00CCFF;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+  margin-left:18.0pt;text-align:justify;tab-stops:54.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:5.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+  margin-left:39.7pt;text-align:justify;text-indent:-21.7pt;mso-list:l0 level1 lfo2;
+  tab-stops:list 36.85pt left 54.0pt'><![if !supportLists]><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:14.0pt;font-family:Arial;mso-fareast-font-family:
+  Arial'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span></b><![endif]><b style='mso-bidi-font-weight:normal'><span
+  style='font-family:Arial'>Olvassuk el figyelmesen a feladat szövegét és
+  próbáljuk megérteni az ott leírtakat!<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+  margin-left:39.7pt;text-align:justify;text-indent:-21.7pt;mso-list:l0 level1 lfo2;
+  tab-stops:list 36.85pt left 54.0pt'><![if !supportLists]><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:14.0pt;font-family:Arial;mso-fareast-font-family:
+  Arial'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span></b><![endif]><b style='mso-bidi-font-weight:normal'><span
+  style='font-family:Arial'>Döntsük el, hogy mi legyen az ismeretlen! A legtöbb
+  esetben azt a mennyiséget célszerû ismeretlennek választani, amire a kérdés
+  vonatkozik, de elõfordulhat, hogy más mennyiséget választva ismeretlennek, a
+  feladat megoldása egyszerûbbé válik.<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+  margin-left:39.7pt;text-align:justify;text-indent:-21.7pt;mso-list:l0 level1 lfo2;
+  tab-stops:list 36.85pt left 54.0pt'><![if !supportLists]><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:14.0pt;font-family:Arial;mso-fareast-font-family:
+  Arial'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span></b><![endif]><b style='mso-bidi-font-weight:normal'><span
+  style='font-family:Arial'>Keressünk összefüggést az adatok között! Az
+  összefüggéseket célszerû táblázatba foglalni. Geometriai típusú feladatnál
+  mindig készítsünk ábrát!<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+  margin-left:39.7pt;text-align:justify;text-indent:-21.7pt;mso-list:l0 level1 lfo2;
+  tab-stops:list 36.85pt left 54.0pt'><![if !supportLists]><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:14.0pt;font-family:Arial;mso-fareast-font-family:
+  Arial'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span></b><![endif]><b style='mso-bidi-font-weight:normal'><span
+  style='font-family:Arial'>A táblázat, illetve a feladat szövege alapján írjuk
+  fel az egyenletet, majd oldjuk meg!<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+  margin-left:39.7pt;text-align:justify;text-indent:-21.7pt;mso-list:l0 level1 lfo2;
+  tab-stops:list 36.85pt left 54.0pt'><![if !supportLists]><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:14.0pt;font-family:Arial;mso-fareast-font-family:
+  Arial'><span style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span></b><![endif]><b style='mso-bidi-font-weight:normal'><span
+  style='font-family:Arial'>Vizsgáljuk meg, hogy a kapott eredmény megfelel-e a
+  feladatban leírtaknak! <i style='mso-bidi-font-style:normal'>(Pl.: A tömeg
+  negatív szám, vagy személyek száma tört. Ilyen esetben a szöveg ismételt
+  elolvasása után el kell döntenünk, hogy a feladatnak nincs megoldása, vagy
+  esetleg kerekítéssel megkaphatjuk a megoldást.)<o:p></o:p></i></span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+  margin-left:39.7pt;text-align:justify;text-indent:-21.7pt;mso-list:l0 level1 lfo2;
+  tab-stops:list 36.85pt left 54.0pt'><![if !supportLists]><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:14.0pt;font-family:Arial;mso-fareast-font-family:
+  Arial'><span style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span></b><![endif]><b style='mso-bidi-font-weight:normal'><span
+  style='font-family:Arial'>A megoldást ellenõrizni kell. Ügyeljünk arra, hogy
+  ne az általunk felírt egyenletbe helyettesítsünk be, hanem a szöveg alapján
+  ellenõrizzünk!<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+  margin-left:39.7pt;text-align:justify;text-indent:-21.7pt;mso-list:l0 level1 lfo2;
+  tab-stops:list 36.85pt left 54.0pt'><![if !supportLists]><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:14.0pt;font-family:Arial;mso-fareast-font-family:
+  Arial'><span style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span></b><![endif]><b style='mso-bidi-font-weight:normal'><span
+  style='font-family:Arial'>A feladatban feltett kérdésre adjunk szöveges
+  választ!<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:5.0pt;font-family:
+  Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:13.0pt;font-family:
+  Arial;color:purple'>Példa</span></b><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='text-align:justify;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  color:blue'><span style='mso-spacerun:yes'>   </span>Az elsõ istállóban
+  20-szal több ló van, mint a másodikban. Ha az elsõbe még 8, a másodikba még 2
+  lovat visznek, akkor az elsõ istállóban háromszor annyi ló lesz, mint a
+  másodikban.<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  color:blue'>Hány ló van most az egyes istállókban?<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  color:blue'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:13.0pt;font-family:
+  Arial;color:navy'>MEGOLDÁS<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-left:.9pt;text-align:justify;text-indent:
+  18.0pt;tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:normal'><span
+  style='font-family:Arial'>Miután figyelmesen elolvastuk a szöveget,
+  eldöntöttük, hogy ezt a feladatot egyenlettel próbáljuk megoldani.<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-left:.9pt;text-align:justify;text-indent:
+  18.0pt;tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:normal'><span
+  style='font-family:Arial'>Jelöljük x-szel, az eredetileg a második istállóban
+  lévõ lovak számát!<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-left:18.0pt;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'>Foglaljuk
+  táblázatba az összefüggéseket!<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:12;height:1.85pt'>
+  <td width=50 valign=top style='width:37.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.85pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=252 colspan=4 valign=top style='width:189.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.85pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><span
+  style='mso-spacerun:yes'>                  </span>I. istálló<o:p></o:p></span></b></p>
+  </td>
+  <td width=312 colspan=4 valign=top style='width:233.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.85pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><span
+  style='mso-spacerun:yes'>               </span>II. istálló<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:13;height:1.65pt'>
+  <td width=50 valign=top style='width:37.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=right style='text-align:right;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'>1.<o:p></o:p></span></b></p>
+  </td>
+  <td width=252 colspan=4 valign=top style='width:189.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><span
+  style='mso-spacerun:yes'>                   </span>x + 20<o:p></o:p></span></b></p>
+  </td>
+  <td width=312 colspan=4 valign=top style='width:233.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><span
+  style='mso-spacerun:yes'>                   </span><span
+  style='mso-spacerun:yes'>  </span><span style='mso-spacerun:yes'> </span>x<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:14;height:1.65pt'>
+  <td width=50 valign=top style='width:37.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=right style='text-align:right;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=252 colspan=4 valign=top style='width:189.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=312 colspan=4 valign=top style='width:233.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:15;height:1.65pt'>
+  <td width=50 valign=top style='width:37.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=right style='text-align:right;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'>2.<o:p></o:p></span></b></p>
+  </td>
+  <td width=204 colspan=2 valign=top style='width:153.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><span
+  style='mso-spacerun:yes'>               </span>(x + 20) + 8<o:p></o:p></span></b></p>
+  </td>
+  <td width=96 colspan=4 valign=top style='width:72.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'>&gt;<o:p></o:p></span></b></p>
+  </td>
+  <td width=264 colspan=2 valign=top style='width:197.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><span
+  style='mso-spacerun:yes'>         </span>x + 2<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:16;height:1.65pt'>
+  <td width=50 valign=top style='width:37.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=564 colspan=8 valign=top style='width:422.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal style='margin-left:158.35pt;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  color:#993366'>háromszorosa<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:17;height:1.65pt'>
+  <td width=50 valign=top style='width:37.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=252 colspan=4 valign=top style='width:189.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=312 colspan=4 valign=top style='width:233.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:18'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:19'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='text-align:justify;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><span
+  style='mso-spacerun:yes'>   </span>Vegyük észre, hogy ha a második istállóban
+  lévõ lovak számát megháromszoroznánk, akkor a két istállóban ugyanannyi ló
+  lenne!<o:p></o:p></span></b></p>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-family:Arial'>Írjuk fel az egyenletet, és oldjuk meg!<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:20'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:21;height:1.3pt'>
+  <td width=182 colspan=2 valign=top style='width:136.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.3pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-family:Arial;color:#993300'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=252 colspan=6 valign=top style='width:189.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.3pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial;color:#993300'><span
+  style='mso-spacerun:yes'>  </span>(x + 20) + 8 = (x + 2) * 3<o:p></o:p></span></b></p>
+  </td>
+  <td width=180 valign=top style='width:134.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.3pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  color:#993300'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:22;height:1.1pt'>
+  <td width=182 colspan=2 valign=top style='width:136.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=252 colspan=6 valign=top style='width:189.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><span style='font-family:
+  Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:134.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:23;height:1.1pt'>
+  <td width=182 colspan=2 valign=top style='width:136.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=252 colspan=6 valign=top style='width:189.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><span style='mso-spacerun:yes'>   
+  </span>x + 20 + 8 = 3x + 6 <o:p></o:p></span></b></p>
+  </td>
+  <td width=180 valign=top style='width:134.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:24;height:1.1pt'>
+  <td width=182 colspan=2 valign=top style='width:136.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=252 colspan=6 valign=top style='width:189.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=180 valign=top style='width:134.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:25;height:1.1pt'>
+  <td width=182 colspan=2 valign=top style='width:136.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=252 colspan=6 valign=top style='width:189.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial;color:black'><span
+  style='mso-spacerun:yes'>          </span>x + 28 = 3x + 6</span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p></o:p></span></b></p>
+  </td>
+  <td width=180 valign=top style='width:134.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial;color:black'>// - x</span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:26;height:1.1pt'>
+  <td width=182 colspan=2 valign=top style='width:136.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=252 colspan=6 valign=top style='width:189.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=180 valign=top style='width:134.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:27;height:1.1pt'>
+  <td width=182 colspan=2 valign=top style='width:136.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=252 colspan=6 valign=top style='width:189.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial;color:black'><span
+  style='mso-spacerun:yes'>        </span><span
+  style='mso-spacerun:yes'> </span><span
+  style='mso-spacerun:yes'>       </span>28 = 2x + 6</span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p></o:p></span></b></p>
+  </td>
+  <td width=180 valign=top style='width:134.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial;color:black'>// - 6</span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:28;height:1.1pt'>
+  <td width=182 colspan=2 valign=top style='width:136.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=252 colspan=6 valign=top style='width:189.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=180 valign=top style='width:134.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:29;height:1.1pt'>
+  <td width=182 colspan=2 valign=top style='width:136.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=252 colspan=6 valign=top style='width:189.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial;color:black'><span
+  style='mso-spacerun:yes'>         </span><span
+  style='mso-spacerun:yes'>  </span><span
+  style='mso-spacerun:yes'>      </span>22 = 2x</span></b><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><o:p></o:p></span></b></p>
+  </td>
+  <td width=180 valign=top style='width:134.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial;color:black'>/<span class=GramE>/ :</span>
+  2</span></b><b style='mso-bidi-font-weight:normal'><span style='font-family:
+  Arial'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:30;height:1.1pt'>
+  <td width=182 colspan=2 valign=top style='width:136.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=252 colspan=6 valign=top style='width:189.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=180 valign=top style='width:134.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:31;height:1.1pt'>
+  <td width=182 colspan=2 valign=top style='width:136.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=252 colspan=6 valign=top style='width:189.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal style='line-height:150%'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial;color:black'><span
+  style='mso-spacerun:yes'>           </span><span
+  style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>    </span>11
+  = x<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=180 valign=top style='width:134.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:32;height:1.1pt'>
+  <td width=182 colspan=2 valign=top style='width:136.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=252 colspan=6 valign=top style='width:189.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:134.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.1pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:33'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='text-align:justify;text-indent:18.9pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  color:black'>Ez az eredmény nem mond ellent a szövegnek, – a (- 8), vagy a 3<span
+  class=GramE>,74</span> például felkelthetné a gyanúnkat – de nézzük meg, hogy
+  jó-e? A szövegbe behelyettesítve a kapott eredményt, készítsük el újra a
+  táblázatunkat!<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:13.0pt;font-family:Arial;color:black'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:13.0pt;font-family:
+  Arial;color:navy'>Ellenõrzés<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:34'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:35;height:1.85pt'>
+  <td width=50 valign=top style='width:37.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.85pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=264 colspan=5 valign=top style='width:198.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.85pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><span
+  style='mso-spacerun:yes'>         </span><span
+  style='mso-spacerun:yes'> </span>I. istálló<o:p></o:p></span></b></p>
+  </td>
+  <td width=300 colspan=3 valign=top style='width:224.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.85pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><span
+  style='mso-spacerun:yes'>               </span>II. istálló<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:36;height:1.65pt'>
+  <td width=50 valign=top style='width:37.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'>1.<o:p></o:p></span></b></p>
+  </td>
+  <td width=264 colspan=5 valign=top style='width:198.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><span
+  style='mso-spacerun:yes'>                 </span><span
+  style='mso-spacerun:yes'>   </span><span style='mso-spacerun:yes'> </span><span
+  style='mso-spacerun:yes'>   </span><span style='mso-spacerun:yes'> </span><span
+  style='mso-spacerun:yes'>  </span><span style='mso-spacerun:yes'>  </span>11
+  + 20<o:p></o:p></span></b></p>
+  </td>
+  <td width=300 colspan=3 valign=top style='width:224.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><span
+  style='mso-spacerun:yes'>                   </span>11<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:37;height:1.65pt'>
+  <td width=50 valign=top style='width:37.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=264 colspan=5 valign=top style='width:198.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=300 colspan=3 valign=top style='width:224.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:38;height:1.65pt'>
+  <td width=50 valign=top style='width:37.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'>2.<o:p></o:p></span></b></p>
+  </td>
+  <td width=264 colspan=5 valign=top style='width:198.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><span
+  style='mso-spacerun:yes'>              </span><span
+  style='mso-spacerun:yes'>   </span><span style='mso-spacerun:yes'>  </span><span
+  style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
+  style='mso-spacerun:yes'>  </span><span
+  style='mso-spacerun:yes'>   </span>(11 + 20) + 8<o:p></o:p></span></b></p>
+  </td>
+  <td width=300 colspan=3 valign=top style='width:224.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-family:Arial'><span style='mso-spacerun:yes'>             
+  </span><span style='mso-spacerun:yes'>  </span>11 + 2<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:39;height:1.65pt'>
+  <td width=50 valign=top style='width:37.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=228 colspan=3 valign=top style='width:171.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><span
+  style='mso-spacerun:yes'>                    </span><span
+  style='mso-spacerun:yes'>  </span><span style='mso-spacerun:yes'> </span><span
+  style='mso-spacerun:yes'>   </span><span style='mso-spacerun:yes'>   </span><span
+  style='mso-spacerun:yes'>     </span>39<o:p></o:p></span></b></p>
+  </td>
+  <td width=72 colspan=3 valign=top style='width:54.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'>&gt;<o:p></o:p></span></b></p>
+  </td>
+  <td width=264 colspan=2 valign=top style='width:197.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal style='tab-stops:54.0pt 117.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><span
+  style='mso-spacerun:yes'>        </span><span
+  style='mso-spacerun:yes'>  </span>13<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:40;height:1.65pt'>
+  <td width=50 valign=top style='width:37.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=564 colspan=8 valign=top style='width:422.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal style='margin-left:167.35pt;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'>háromszorosa<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:41;height:1.65pt'>
+  <td width=50 valign=top style='width:37.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=264 colspan=5 valign=top style='width:198.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=300 colspan=3 valign=top style='width:224.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:42;height:1.65pt'>
+  <td width=50 valign=top style='width:37.65pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=264 colspan=5 valign=top style='width:198.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=300 colspan=3 valign=top style='width:224.95pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:1.65pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:43'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:44'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='text-align:justify;text-indent:14.3pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'>A
+  szövegben, az eredetileg a második istállóban lévõ lovak száma helyére 11-et
+  helyettesítve, a feladat minden feltétele teljesül. Jöhet a szöveges válasz.<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:45'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:46'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='text-indent:18.9pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial;color:#993300'>Jelenleg az elsõ
+  istállóban 31, a másodikban 11 ló van.<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:47'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><span
+  style='font-size:13.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:48;mso-yfti-lastrow:yes'>
+  <td width=614 colspan=9 valign=top style='width:460.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+  normal'><span style='font-family:Arial'><span style='mso-spacerun:yes'>  
+  </span>Ha egy szöveges feladatot nem egyenlettel, hanem egyenlõtlenséggel
+  lehet megoldani, ugyanígy kell eljárni.<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:54.0pt 117.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <![if !supportMisalignedColumns]>
+ <tr height=0>
+  <td width=54 style='border:none'></td>
+  <td width=142 style='border:none'></td>
+  <td width=78 style='border:none'></td>
+  <td width=26 style='border:none'></td>
+  <td width=26 style='border:none'></td>
+  <td width=13 style='border:none'></td>
+  <td width=39 style='border:none'></td>
+  <td width=90 style='border:none'></td>
+  <td width=194 style='border:none'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+<p class=MsoNormal style='tab-stops:10.0cm'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:10.0pt;font-family:"Comic Sans MS";color:green'><o:p>&nbsp;</o:p></span></b></p>
+
+</div>
+
+</body>
+
 </html>
